@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logoicon{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+.heroholder{
+    height: 500px;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header{
+    height: 80px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navs{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.navs> a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navs > button{
+    background-color: transparent;
+    border: 2px solid white;
+    height: 40px;
+    width: 80px;
+    color: white;
+
+}
+.content{
+    height: 420px;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn1 {
+    height: 40px;
+    width: 100px;
+    color: black;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+    height: 40px;
+    width: 100px;
+    color: white;
+
+}
+.nextcard{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    background-color: blueviolet;
+    height: 70px;
+    width: 50px;
+}
+
+.card2{
+    background-color: chartreuse;
+    height: 70px;
+    width: 50px;
+}
+
+.card3{
+    background-color: darkcyan;
+    height: 70px;
+    width: 50px;
+
+}
+
